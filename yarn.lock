@@ -3254,14 +3254,6 @@ babel-plugin-remove-graphql-queries@^4.25.0:
     "@babel/types" "^7.15.4"
     gatsby-core-utils "^3.25.0"
 
-babel-plugin-remove-graphql-queries@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-remove-graphql-queries/-/babel-plugin-remove-graphql-queries-4.4.0.tgz#6f301477a4b617253b877455fb54a9eb9c58f026"
-  integrity sha512-wxDR1WrpLbF0qyXvNBsGKYLJk+Z7nG8+UM+bEeyxi7YepwVjgfm4CFQgbSytQbk0X+qGRCqpmq4VZVIxVTyGYQ==
-  dependencies:
-    "@babel/runtime" "^7.15.4"
-    gatsby-core-utils "^3.4.0"
-
 babel-plugin-syntax-object-rest-spread@^6.8.0:
   version "6.13.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-object-rest-spread/-/babel-plugin-syntax-object-rest-spread-6.13.0.tgz#fd6536f2bce13836ffa3a5458c4903a597bb3bf5"
@@ -5798,24 +5790,25 @@ gatsby-plugin-gatsby-cloud@^4.5.0:
     lodash "^4.17.21"
     webpack-assets-manifest "^5.1.0"
 
-gatsby-plugin-image@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-image/-/gatsby-plugin-image-2.4.0.tgz#fd960393043e856eb70d998dc34ad96a738162a8"
-  integrity sha512-PKhbefaamdahm1ysKO1d54vnzmIsjR+/qtyFnZumGu8E7O9lN5is0RlXgpNCvsckL+XzcqyMljytt/bYf8L5WA==
+gatsby-plugin-image@^2.25.0:
+  version "2.25.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-image/-/gatsby-plugin-image-2.25.0.tgz#3ce19dd2101a7858c17dfabe884ec004bb4fa15b"
+  integrity sha512-Q1TRjvBF7x50alS22i91rksl7A3g42S0jIdPEQcT9bl8MbFaJiboHGna/jp78nxm9vu4qtUJ1IziRSOu0bgHNQ==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/parser" "^7.15.5"
     "@babel/runtime" "^7.15.4"
     "@babel/traverse" "^7.15.4"
     babel-jsx-utils "^1.1.0"
-    babel-plugin-remove-graphql-queries "^4.4.0"
+    babel-plugin-remove-graphql-queries "^4.25.0"
     camelcase "^5.3.1"
-    chokidar "^3.5.2"
+    chokidar "^3.5.3"
     common-tags "^1.8.2"
-    fs-extra "^10.0.0"
-    gatsby-core-utils "^3.4.0"
+    fs-extra "^10.1.0"
+    gatsby-core-utils "^3.25.0"
+    gatsby-plugin-utils "^3.19.0"
     objectFitPolyfill "^2.3.5"
-    prop-types "^15.7.2"
+    prop-types "^15.8.1"
 
 gatsby-plugin-manifest@^4.8.0:
   version "4.25.0"
